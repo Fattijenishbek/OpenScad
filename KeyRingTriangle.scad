@@ -1,11 +1,11 @@
-
 union() {
-        translate(v=[18,0,0]) {
+        rotate([90,0,0]){
+        translate(v=[18.5,2.5,-2.5]) {
         difference() {        
         color("grey")
         cylinder(r=3,h=5,$fn=100);
         translate(v=[0,0,-1]) {
-        cylinder(r=2,h=7,$fn=100);
+        cylinder(r=2,h=7,$fn=100);}
         }
         }
     }
@@ -25,4 +25,4 @@ union() {
            }
         } 
     } 
-} 
+}
